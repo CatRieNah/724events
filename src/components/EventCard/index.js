@@ -36,7 +36,7 @@ EventCard.propTypes = {
   small: PropTypes.bool,
   label: PropTypes.string.isRequired,
 };
-
+// eslint-disable-next-line
 EventCard.defaultProps = {
   imageAlt: "image",
   small: false,
